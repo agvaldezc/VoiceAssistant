@@ -3,25 +3,26 @@ VoiceAssistant is a small easy-to-use implementation of iOS' AVSynthesizer.
 
 You only need 4 easy steps to use Text To Speech inside iOS:
 
-1. Import the VoiceAssistent library using: 
+### 1. Import the VoiceAssistent library using import or drag and drop VoiceAssistant.swift inside your project.
 ```Swift 
 import VoiceAssistant
 ``` 
-or drag and drop VoiceAssistant.swift inside your project.
 
-2. Create a VoiceAssistant instance inside your code.
+### 2. Create a VoiceAssistant instance inside your code.
 ```Swift
 let voiceAssistant = VoiceAssistant()
 ```
-3. Send strings to be read to VoiceAssistant with 
+### 3. Send strings to be read to VoiceAssistant with 
 ```Swift 
 .addSpeechToQueue("Something to say")
 ```
-4. Just 
+### 4. Just 
 ```Swift 
 .speak()
 ```
 And there you have it! Text To Speech as easy as it is!
+
+### VoiceAssistant is documented using Apple Markup Standards so that quick help inside Xcode works as intended.
 
 For more detailed instructions, read bellow.
 
