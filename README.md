@@ -26,18 +26,13 @@ For more detailed instructions, read bellow.
 ## Table of content
 [- Import VoiceAssistant](https://github.com/agvaldezc/VoiceAssistant/blob/master/README.md#import-voiceassistant). 
 [- Creating VoiceAssistant instance](https://github.com/agvaldezc/VoiceAssistant#creating-voiceassistant-instance). 
-    [1. Default language](https://github.com/agvaldezc/VoiceAssistant#1-default-language). 
-    [2. Selecting a langauge tag from VoiceLanguage enum](https://github.com/agvaldezc/VoiceAssistant#2-selecting-a-langauge-tag-from-voicelanguage-enum). 
-    [3. Specify language tag](https://github.com/agvaldezc/VoiceAssistant#3-specify-language-tag). 
-    [2. Selecting a langauge tag from VoiceLanguage enum](https://github.com/agvaldezc/VoiceAssistant#2-selecting-a-langauge-tag-from-voicelanguage-enum). 
+[1. Default language](https://github.com/agvaldezc/VoiceAssistant#1-default-language). 
+[2. Selecting a langauge tag from VoiceLanguage enum](https://github.com/agvaldezc/VoiceAssistant#2-selecting-a-langauge-tag-from-voicelanguage-enum). 
+[3. Specify language tag](https://github.com/agvaldezc/VoiceAssistant#3-specify-language-tag). 
+[2. Selecting a langauge tag from VoiceLanguage enum](https://github.com/agvaldezc/VoiceAssistant#2-selecting-a-langauge-tag-from-voicelanguage-enum). 
 [- Feed text to be read by VoiceAsisstant](https://github.com/agvaldezc/VoiceAssistant#feed-text-to-be-read-by-voiceasisstant)
 [- Speak!](https://github.com/agvaldezc/VoiceAssistant#speak). 
 [- Additional functions](https://github.com/agvaldezc/VoiceAssistant#additional-functions). 
-    [- How to know if voiceAssistant is speaking or not](https://github.com/agvaldezc/VoiceAssistant#how-to-know-if-voiceassistant-is-speaking-or-not). 
-    [- How to stop voice assistant from speaking](https://github.com/agvaldezc/VoiceAssistant#how-to-stop-voice-assistant-from-speaking). 
-    [- How to know if voiceAssistant is speaking or not](https://github.com/agvaldezc/VoiceAssistant#how-to-know-if-voiceassistant-is-speaking-or-not). 
-        [1. Immediate stop](https://github.com/agvaldezc/VoiceAssistant#1-immediate-stop). 
-        [2. Word stop](https://github.com/agvaldezc/VoiceAssistant#2-word-stop). 
 
 ## Import VoiceAssistant
 To use VoiceAssistant inside your project, clone VoiceAssistant:
