@@ -24,10 +24,10 @@ For more detailed instructions, read bellow.
 # Instructions
 
 ## Table of content
-[- Import VoiceAssistant]
-[- Creating VoiceAssistant instance]
-    [1. Default language]
-    [2. Selecting a langauge tag from VoiceLanguage enum]
+[- Import VoiceAssistant](https://github.com/agvaldezc/VoiceAssistant/blob/master/README.md#import-voiceassistant)
+[- Creating VoiceAssistant instance](https://github.com/agvaldezc/VoiceAssistant/blob/master/README.md#create-voiceassitant-instance)
+    [1. Default language](https://github.com/agvaldezc/VoiceAssistant/blob/master/README.md#default-language)
+    [2. Selecting a langauge tag from VoiceLanguage enum](https://github.com/agvaldezc/VoiceAssistant/blob/master/README.md#selecting-a-language-tag-from-voicelanguage-enum)
     [3. Specify language tag]
 [- Feed text to be read by VoiceAsisstant]
 [- Speak!]
