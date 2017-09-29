@@ -281,3 +281,17 @@ Supported language tags inside iOS are the following:
 ```Swift
     "th-TH"
 ```
+## Feed text to be read by VoiceAsisstant
+Adding text to VoiceAssistant queue is as easy as calling the ```Swift .addTextToSpeechQueue(textToQueue: String)``` function.
+### Examples
+```Swift
+voiceAssistant.addTextToSpeechQueue(textToQueue: "My name is Siri")
+```
+```Swift
+let text = "My name is Siri"
+voiceAssistant.addTextToSpeechQueue(textToQueue: text)
+```
+### Note
+Keep in mind that the string sent to voiceAssistant has to match the language that VoiceAsisstant instance was created. VoiceAssistant DOES NOT TRANSLATE text to be spoken.
+## Speak!
+Now that you fed some text to voiceAssistant, let's make it speak ```Swift voiceAssistant.speak()``` Easy as that!
