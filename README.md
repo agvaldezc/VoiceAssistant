@@ -8,22 +8,20 @@ You only need 4 easy steps to use Text To Speech inside iOS:
 import VoiceAssistant
 ``` 
 or drag and drop VoiceAssistant.swift inside your project.
-
 2. Create a VoiceAssistant instance inside your code.
-
 3. Send strings to be read to VoiceAssistant with 
 ```Swift 
-.addSpeechToQueue
+.addSpeechToQueue("Something to say")
 ```
-
 4. Just 
 ```Swift 
 .speak()
 ```
-
 And there you have it! Text To Speech as easy as it is!
 
-For more detailed instructions, read bellow.
+For more detailed [instructions](Instructions), read bellow.
+
+# Instructions
 
 
 
