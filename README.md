@@ -23,6 +23,20 @@ For more detailed instructions, read bellow.
 
 # Instructions
 
+## Table of content
+[- Import VoiceAssistant]
+[- Creating VoiceAssistant instance]
+    [1. Default language]
+    [2. Selecting a langauge tag from VoiceLanguage enum]
+    [3. Specify language tag]
+[- Feed text to be read by VoiceAsisstant]
+[- Speak!]
+[- Additional functions]
+    [- How to know if voiceAssistant is speaking or not]
+    [- How to stop voice assistant from speaking]
+        [1. Immediate stop]
+        [2. Word stop]
+
 ## Import VoiceAssistant
 To use VoiceAssistant inside your project, clone VoiceAssistant:
 ```git
@@ -295,3 +309,22 @@ voiceAssistant.addTextToSpeechQueue(textToQueue: text)
 Keep in mind that the string sent to voiceAssistant has to match the language that VoiceAsisstant instance was created. VoiceAssistant DOES NOT TRANSLATE text to be spoken.
 ## Speak!
 Now that you fed some text to voiceAssistant, let's make it speak ```Swift voiceAssistant.speak()``` Easy as that!
+
+## Additional functions
+VoiceAssistant has different helper functions just to have more control over it.
+### How to know if voiceAssistant is speaking or not
+```Swift
+voiceAssistant.isSpeaking()
+```
+### How to stop voice assistant from speaking
+You have two options to make voiceAssistant stop speaking:
+#### 1. Immediate stop
+This stops voiceAssistant immediatly.
+```Swift
+voiceAssistant.stopSpeaking(boundry: .immediate)
+```
+#### 2. Word stop
+Use this if you want voiceAssistant to stop talking after pronouncing a word to achieve a more natural stop.
+```Swift
+voiceAssistant.stopSpeaking(boundry: .word)
+```
